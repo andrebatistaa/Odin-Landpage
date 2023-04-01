@@ -1,17 +1,9 @@
-# Odin-Landpage
-This landpage was created with the incentive and knowledge gathered at the odin project
+# My first Landpage with the knowledge aquired on The Odin Project curriculum.
 
-# images
-Universe (https://unsplash.com/@grakozy)
+## The idea of this project was to practice the knowledge and build my first landing page.
 
+## Reference of the images.
+the images were provided by "https://unsplash.com/@djulien" and "https://unsplash.com/@lucabravo"
 
-.city {
-    background: url(images/city.jpg) no-repeat center fixed;
-    background-size: cover;
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    align-self: stretch;
-    
-
-}
+## Find a bug or want to give any advice?
+If you find something i could've done better and you are wiling to help, it will be an honor to listen your advice, contact me whenever you want.
