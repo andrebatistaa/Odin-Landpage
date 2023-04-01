@@ -20,9 +20,7 @@ body {
     min-height: 260vh;
     background: url(images/city.jpg) no-repeat center fixed;
     background-size: cover;
-    flex: 1;
-    
-    
+    flex: 1;  
 }
 
 .logo {
@@ -35,7 +33,6 @@ body {
     padding: 0px 8px 2px 2px ;
     border-radius: 6px;
     box-shadow: 8px 8px 4px;
-
 }
 
 a {
@@ -56,8 +53,7 @@ a:hover {
 
 .header {
     align-self: stretch;
-    box-shadow: 8px 8px 12px;
-    
+    box-shadow: 8px 8px 12px;   
 }
 
 header {
@@ -67,8 +63,7 @@ header {
     padding: 18px;
     align-items: center;
     margin: 0;
-    box-shadow: 8px 8px 12px;
-   
+    box-shadow: 8px 8px 12px;  
 }
 
 .links {
@@ -89,12 +84,13 @@ header {
 }
 
 .sub-desc {
-    font-size: 22px;
+    font-size: 26px;
     text-align: center;
     padding: 24px;
     font-weight: 600;
     margin: 0;
-
+    width: 600px;
+    text-shadow: 2px 2px 12px;
 }
 
 .intro{
@@ -103,12 +99,10 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
     background-size: cover;
-    flex: 1;
+    flex: auto;
     flex-direction: column;
-    align-self: stretch;
-    
+    align-self: stretch;   
 }
 
 button {
@@ -127,7 +121,8 @@ button {
     text-align: center;
     background-color: antiquewhite;
     align-self: stretch;
-    box-shadow: 4px 4px 12px, -4px -4px 12px;
+    box-shadow: 4px 4px 8px, -4px -4px 12px;
+    border-radius: 6px;
     
 
 }
@@ -156,8 +151,7 @@ img {
     padding: 0px 8px 4px 8px;
     margin: 40px;
     box-shadow: 4px 4px 12px rgb(0, 0, 0);
-    align-self: center;
-    
+    align-self: center;   
 }
 
 .phrase {
@@ -171,11 +165,9 @@ img {
 .foot {
     display: flex;
     flex: 1;
-    background: url(images/metro.jpg) no-repeat center center fixed;
-    align-self: stretch;
     flex-direction: column;
     justify-content: center;
-    width: 100%;    
+    height: ;  
 }
 
 .join {
@@ -187,9 +179,6 @@ img {
     border-radius: 12px;
     box-shadow: 4px 4px 12px rgb(0, 0, 0);
     margin-top: 100px;
-    
-
-
 }
 
 .phrase {
@@ -197,6 +186,7 @@ img {
     align-self: center;
     font-size: 34px;
     margin: 0px;
+    text-shadow: 2px 2px 12px;   
 }
 
 .phrase > p:nth-child(2) {
@@ -218,8 +208,7 @@ img {
     align-items: center;
     align-self: stretch;
     background-color: antiquewhite;
-    box-shadow: -4px -4px 12px;
-
+    box-shadow: -4px -4px 6px;
 }
 
 .footer > p {
@@ -237,4 +226,14 @@ img {
     box-shadow: 4px 4px 12px rgb(0, 0, 0);
     align-self: center;
     color: whitesmoke;
+}
+
+.train {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    background: url(images/metro.jpg) no-repeat center center fixed;
+    flex: auto;
 }
